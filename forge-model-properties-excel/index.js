@@ -1,4 +1,3 @@
-
 const fs = require('fs');
 const ExcelJS = require('exceljs');
 const { AuthClientTwoLegged, DerivativesApi } = require('forge-apis');

@@ -13,11 +13,24 @@
             ],
             "program": "${workspaceFolder}/index.js",
             "env": {
-                "FORGE_CLIENT_ID":"",
-                "FORGE_CLIENT_SECRET":"",
-                "FORGE_BUCKET_KEY":"xiaodong-old-svf-temporary-test",
-                "FORGE_MODEL_URN":"dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6eGlhb2Rvbmctb2xkLXN2Zi10ZW1wb3JhcnktdGVzdC9hZHZhbmNlZC5ydnQ"
+                "FORGE_CLIENT_ID":"eYTJ1trcwGzioK61zAtrOUuBjcfkU40W",
+                "FORGE_CLIENT_SECRET":"Da3dd9435c00942a",
+                //"FORGE_BUCKET_KEY":"xiaodong-old-svf-temporary-test",
+                //"FORGE_MODEL_URN":"dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6eGlhb2Rvbmctb2xkLXN2Zi10ZW1wb3JhcnktdGVzdC9hZHZhbmNlZC5ydnQ"
+                
+                //base64 URL https://www.base64url.com/
+                "FORGE_MODEL_URN":"dXJuOmFkc2sud2lwcHJvZDpmcy5maWxlOnZmLnZrekJ4X3hLUlk2NlRxeERxQ0Q5TlE_dmVyc2lvbj00"//"urn:adsk.wipprod:fs.file:vf.vkzBx_xKRY66TqxDqCD9NQ?version=4"
+                //"FORGE_MODEL_URN":""//"urn:adsk.wipprod:fs.file:vf.vkzBx_xKRY66TqxDqCD9NQ"
+                //"FORGE_MODEL_URN":""//"adsk.wipprod:fs.file:vf.vkzBx_xKRY66TqxDqCD9NQ"
+                //"FORGE_MODEL_URN":""//"fs.file:vf.vkzBx_xKRY66TqxDqCD9NQ"
+                //"FORGE_MODEL_URN":""//"vkzBx_xKRY66TqxDqCD9NQ"
 
+                //"FORGE_MODEL_URN":"urn:adsk.wipprod:fs.file:vf.vkzBx_xKRY66TqxDqCD9NQ?version=4"
+                //"FORGE_MODEL_URN":"urn:adsk.wipprod:fs.file:vf.vkzBx_xKRY66TqxDqCD9NQ"
+                //"FORGE_MODEL_URN":"adsk.wipprod:fs.file:vf.vkzBx_xKRY66TqxDqCD9NQ"
+                //"FORGE_MODEL_URN":"fs.file:vf.vkzBx_xKRY66TqxDqCD9NQ"
+                //"FORGE_MODEL_URN":"vkzBx_xKRY66TqxDqCD9NQ"
+                //"FORGE_MODEL_RUN":"dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6bTFtMW0xbTEvYm94LmlwdA"
             }
         }
     ]

@@ -17,8 +17,9 @@
   },
   "homepage": "https://github.com/xiaodongliang/forge-model-properties-excel#readme",
   "dependencies": {
-    "exceljs": "^3.3.1",
+    "autodesk.forge.designautomation": "^3.0.5",
+    "exceljs": "^3.10.0",
     "express": "^4.17.1",
-    "forge-apis": "^0.4.3"
+    "forge-apis": "^0.4.8"
   }
 }
