@@ -34,6 +34,9 @@ import EnumerateVisualObjectInstancesOptions = powerbi.EnumerateVisualObjectInst
 import VisualObjectInstance = powerbi.VisualObjectInstance;
 import DataView = powerbi.DataView;
 import VisualObjectInstanceEnumerationObject = powerbi.VisualObjectInstanceEnumerationObject;
+import IVisualHost = powerbi.extensibility.IVisualHost;
+import * as d3 from "d3";
+type Selection<T extends d3.BaseType> = d3.Selection<T, any,any, any>;
 
 export class Visual implements IVisual {
 
