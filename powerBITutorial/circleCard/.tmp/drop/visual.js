@@ -37,6 +37,7 @@ var circleCard24E509E8340B49809F8F3AA78186F17B_DEBUG;
 
 
 class Visual {
+    // ...
     constructor(options) {
     }
     update(options) {

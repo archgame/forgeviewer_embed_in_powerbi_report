@@ -39,7 +39,14 @@ import * as d3 from "d3";
 type Selection<T extends d3.BaseType> = d3.Selection<T, any,any, any>;
 
 export class Visual implements IVisual {
-
+    // ...
+    private host: IVisualHost;
+    private svg: Selection<SVGElement>;
+    private container: Selection<SVGElement>;
+    private circle: Selection<SVGElement>;
+    private textValue: Selection<SVGElement>;
+    private textLabel: Selection<SVGElement>;
+    // ...
 
     constructor(options: VisualConstructorOptions) {
 
