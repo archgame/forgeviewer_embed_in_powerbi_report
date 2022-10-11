@@ -36,7 +36,7 @@ import DataView = powerbi.DataView;
 import VisualObjectInstanceEnumerationObject = powerbi.VisualObjectInstanceEnumerationObject;
 import IVisualHost = powerbi.extensibility.IVisualHost;
 import * as d3 from "d3";
-type Selection<T extends d3.BaseType> = d3.Selection<T, any,any, any>;
+type Selection<T extends d3.BaseType> = d3.Selection<T, any, any, any>;
 
 export class Visual implements IVisual {
     // ...
@@ -49,7 +49,17 @@ export class Visual implements IVisual {
     // ...
 
     constructor(options: VisualConstructorOptions) {
-
+        this.svg = d3.select(options.element)
+            .append('svg')
+            .classed('circleCard', true);
+        this.container = this.svg.append("g")
+            .classed('container', true);
+        this.circle = this.container.append("circle")
+            .classed('circle', true);
+        this.textValue = this.container.append("text")
+            .classed("textValue", true);
+        this.textLabel = this.container.append("text")
+            .classed("textLabel", true);
     }
 
     public update(options: VisualUpdateOptions) {
